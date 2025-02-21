@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/stylelog.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <form action="" method='post'>
+                {% csrf_token %}
+                <h2>Login</h2>
+                <div class="user-details">
+                    <div class="input_box">
+                        <label>User Name  </label>
+                        <input type="text" name="username">
+                    </div>
+                
+                    <div class="input_box">
+                        <label>Password  </label>
+                        <input type="password" name="password">
+                    </div>
+                   
+                </div>
+                <div class="button">
+                    <input type="submit" name="submit" value="LogIn">
+                </div>
+            </form>
+            <div>
+
+                {% for message in messages %}
+                <script>
+                    alert('{{message}}');
+                </script>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
