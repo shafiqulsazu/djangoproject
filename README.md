@@ -1,4 +1,4 @@
-# Django Varsity Course Project
+# Python Django Final Project
 
 This is a Django project developed for my Varsity Course. The project demonstrates the use of the Django framework for building web applications, implementing user authentication, CRUD operations, and more.
 
