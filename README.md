@@ -17,19 +17,19 @@ This is a Django project developed for my Varsity Course. The project demonstrat
 Make sure you have Python 3.x and pip installed. You will also need to have Django installed.
 
 1. Install Python dependencies:
-   bash
+ 
    pip install -r requirements.txt
 
 2.Install Django:
-bash
+
 pip install django
 
 3.Run the Development Server
 To start the development server, navigate to the project directory and run:
-bash
+
 python manage.py runserver
-You can now access the project by opening your browser and going to:
-bash
+4.You can now access the project by opening your browser and going to:
+
 http://127.0.0.1:8000/
 
 Usage
