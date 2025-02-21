@@ -17,8 +17,8 @@ This is a Django project developed for my Varsity Course. The project demonstrat
 Make sure you have Python 3.x and pip installed. You will also need to have Django installed.
 
 1. Install Python dependencies:
----bash
-pip install -r requirements.txt
+   bash
+   pip install -r requirements.txt
 
 2.Install Django:
 bash
