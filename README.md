@@ -28,6 +28,7 @@ pip install django
 To start the development server, navigate to the project directory and run:
 
 python manage.py runserver
+
 4.You can now access the project by opening your browser and going to:
 
 http://127.0.0.1:8000/
