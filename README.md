@@ -1,4 +1,4 @@
-#Event Management App
+# Event Management App
 
 ![homepage](https://github.com/user-attachments/assets/59af9378-1855-40ee-819b-df4ef4e4163c)
 
