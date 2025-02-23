@@ -32,7 +32,7 @@ To set up and run the application in local server, follow the steps below:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/shafiqulsazu/djangoproject
+   git clone https://github.com/shafiqulsazu/djangoproject.git
    ```
 2. Navigate to the project directory:
    ```sh
@@ -59,27 +59,35 @@ To set up and run the application in local server, follow the steps below:
    ```sh
    pip install requirements
    ```
-6. If any migration required:
+7. If any migration required:
    ```sh
    python manage.py makemigrations
    ```
-6. Run migrations:
+8. Run migrations:
    ```sh
    python manage.py migrate
    ```
-7. Run the Django project:
+9. If you want to access admin panel(Optional):
+   ```sh
+   python manage.py createsuperuser
+   ```
+10. Run the Django project:
    ```sh
    python manage.py runserver
    ```
-8. Open your browser and go to:
+11. Open your browser and go to:
    ```
    http://127.0.0.1:8000/
    ```
 
 
-Usage
+# Usage
 To log in or register, visit the login and registration pages provided in the application.
 After successful login, users can access restricted areas like events, booking, etc.
 Logout functionality is available via the navigation bar.
-Contributing
+# Contributing
 Feel free to fork the repository and contribute. If you encounter any issues, please open an issue, and I’ll address it as soon as possible
+
+# License
+MIT License
+Copyright (c) 2025 [@shafiqulsazu]
