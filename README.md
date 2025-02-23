@@ -1,3 +1,7 @@
+#Event Management App
+![homepage](https://github.com/user-attachments/assets/59af9378-1855-40ee-819b-df4ef4e4163c)
+![Homepage](![Uploading homepage.png…])
+
 # Python Django Final Project
 
 This is a Django project developed for my Varsity Course. This Event Management System is a web-based application built using Django, designed to facilitate seamless event booking for students. The system provides an authentication mechanism, allowing users to register, log in, and log out securely.
