@@ -1,14 +1,15 @@
 # Python Django Final Project
 
-This is a Django project developed for my Varsity Course. The project demonstrates the use of the Django framework for building web applications, implementing user authentication, CRUD operations, and more.
+This is a Django project developed for my Varsity Course. This Event Management System is a web-based application built using Django, designed to facilitate seamless event booking for students. The system provides an authentication mechanism, allowing users to register, log in, and log out securely.
 
 ## Features
 
-- User Authentication (Login, Registration, Logout)
+- User Authentication: Secure registration, login, and logout functionality.
+- Event Booking: Students can browse and book available events.
+- Backend Management: Event data and user bookings are stored and managed using Django’s database models.
 - Dynamic Content Management
 - User-friendly interface built with HTML, CSS, and Bootstrap
-- Responsive design for mobile and desktop
-- Customizable settings for various views and actions
+  
 
 
 ## Setup Instructions
