@@ -90,4 +90,4 @@ Feel free to fork the repository and contribute. If you encounter any issues, pl
 
 # License
 MIT License
-Copyright (c) 2025 [@shafiqulsazu]
+Copyright (c) 2025 Md. Shafiqul Islam Sazu
