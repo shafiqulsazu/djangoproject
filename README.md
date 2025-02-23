@@ -1,5 +1,6 @@
 # Event Management App
 
+## Homepage 
 ![homepage](https://github.com/user-attachments/assets/59af9378-1855-40ee-819b-df4ef4e4163c)
 
 
