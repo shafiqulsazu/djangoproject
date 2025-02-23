@@ -11,40 +11,48 @@ This is a Django project developed for my Varsity Course. The project demonstrat
 - Customizable settings for various views and actions
 
 
-## Installation
+## Setup Instructions
 
-To set up and run the application locally, follow these steps:
+To set up and run the application in local server, follow the steps below:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/AbidHasanRafi/task-manager-app.git
+   git clone https://github.com/shafiqulsazu/djangoproject
    ```
 2. Navigate to the project directory:
    ```sh
-   cd task-manager-app
+   cd eventproject
    ```
 3. Create a virtual environment:
    ```sh
-   python -m venv venv
+   python -m venv emv1
    ```
 4. Activate the virtual environment:
    - On Windows:
      ```sh
-     venv\Scripts\activate
+     .\emv1\Scripts\activate
      ```
    - On macOS/Linux:
      ```sh
-     source venv/bin/activate
+     source emv1/bin/activate
      ```
 5. Install dependencies:
    ```sh
    pip install -r requirements.txt
    ```
+6. If any requirements needed:
+   ```sh
+   pip install requirements
+   ```
+6. If any migration required:
+   ```sh
+   python manage.py makemigrations
+   ```
 6. Run migrations:
    ```sh
    python manage.py migrate
    ```
-7. Start the development server:
+7. Run the Django project:
    ```sh
    python manage.py runserver
    ```
@@ -53,29 +61,6 @@ To set up and run the application locally, follow these steps:
    http://127.0.0.1:8000/
    ```
 
-
-## Setup Instructions
-
-### Prerequisites
-
-Make sure you have Python 3.x and pip installed. You will also need to have Django installed.
-
-1. Install Python dependencies:
- 
-   pip install -r requirements.txt
-
-2.Install Django:
-
-pip install django
-
-3.Run the Development Server
-To start the development server, navigate to the project directory and run:
-
-python manage.py runserver
-
-4.You can now access the project by opening your browser and going to:
-
-http://127.0.0.1:8000/
 
 Usage
 To log in or register, visit the login and registration pages provided in the application.
